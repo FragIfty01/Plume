@@ -18,15 +18,10 @@ It will:
     cd Plume
     ```
 2. **Install dependencies:**
-    
-    ```bash
-     apt update
-     apt install nodejs npm
-    ```
 
-    ```bash
-    npm install ethers dotenv prompt-sync
-    ```
+   ```bash
+   apt update && apt install -y nodejs npm && npm install ethers dotenv prompt-sync crypto-random-string
+   ```
 
 3. **Run the script:**
 
