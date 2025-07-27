@@ -11,21 +11,32 @@ It will:
 
 ## 🚀 Quick Start
 
-1. **Install dependencies:**
+1. **Clone this repo:**
+
+    ```bash
+    git clone https://github.com/FragIfty01/Plume.git
+    cd Plume
+    ```
+2. **Install dependencies:**
+    
+    ```bash
+     apt update
+     apt install nodejs npm
+    ```
 
     ```bash
     npm install ethers dotenv prompt-sync
     ```
 
-2. **Run the script:**
+3. **Run the script:**
 
     ```bash
     node index.js
     ```
 
-3. **Follow the prompts** to enter your wallet addresses and private keys.
+4. **Follow the prompts** to enter your wallet addresses and private keys.
 
-4. The script will save your credentials to `.env` (in the same directory) and automatically begin the automation for all entered wallets.
+5. The script will save your credentials to `.env` (in the same directory) and automatically begin the automation for all entered wallets.
 
 ---
 
